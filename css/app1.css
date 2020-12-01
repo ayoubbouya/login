@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e8e8e8;
+}
+/* start login */
+.login{
+    width: 800px;
+    height: 550px;
+    text-align: center;
+    border: 1px solid #dedede;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* start header */
+header{
+    margin: 15px 0px;
+}
+header h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+ 
+
+/* start main */
+
+form{
+    margin-bottom: 40px;
+}
+
+input{
+    border: none;
+    margin-bottom: 15px;
+}
+
+input[type=email],input[type=password]{
+   width: 600px;
+   height: 30px;
+   border-bottom: 1px solid gray;
+}
+
+input[type=submit]{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+   
+ }
+/* start social media */
+
+.socialmedial p{
+   margin: 25px 0px;
+}
+
+  a{
+    text-decoration: none;
+    color: darksalmon;
+}
+/* start footer */
+
+footer{
+    width: 300px;
+    margin: auto 0px;
+    margin-top: 50px;
+    
+}

@@ -1,0 +1,74 @@
+/* All content */
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+ body{
+    background-color: #eeeeee ;
+ }
+ 
+
+/* rigster */
+#register{
+    text-align: center;
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+header h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* main  */
+
+    main form input[type=text], input[type=email],input[type=password] {
+
+        width: 800px;
+        height: 40px;
+        border: 1px solid #bdbdbd;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        padding-left: 8px;
+
+    }
+
+    main input[type=submit]{
+
+        width: 808px;
+        height: 40px;
+        margin: 13px 0px;
+        background-color: #0098f0;
+        color: white;
+        border: none;
+        border-radius: 3px;
+
+    }
+
+    main input[type=submit]:hover{
+        background-color: #73cbfd;
+    }
+
+    .checkbox input[type=checkbox] {
+        display: inline-block;
+      
+        }
+    .checkbox p {
+        display: inline-block;
+        
+
+
+        }
+
+/* form */
+
+/* footer */
+
+
